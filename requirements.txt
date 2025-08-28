@@ -3,3 +3,4 @@ pytest
 deepeval
 pytest-html
 detoxify
+openai
