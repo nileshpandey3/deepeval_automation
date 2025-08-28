@@ -1,4 +1,9 @@
-### Demo Test Automation Project using DeepEval and default Open AI LLM
+### Demo Test Automation Project using DeepEval and local gemma3 ollama model
+
 
 ### How to Run
-`pytest tests/ -s`
+- Download and install Ollama https://ollama.com/download
+- Pull the gemma3 model (lightweight)
+- Make sure its running on your machine 
+- `deepeval set-ollama gemma3:1b`
+- `pytest tests/ -s`

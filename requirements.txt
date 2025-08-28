@@ -2,5 +2,3 @@ pylint
 pytest
 deepeval
 pytest-html
-detoxify
-openai
